@@ -23,7 +23,7 @@ function gameFlash(btn) {
     btn.classList.add("flash");
     setTimeout(function() {
         btn.classList.remove("flash");
-    }, 200)
+    }, 150)
 }
 
 //userFlash().........................
@@ -31,7 +31,7 @@ function userFlash(btn) {
     btn.classList.add("userflash");
     setTimeout(function() {
         btn.classList.remove("userflash");
-    }, 250)
+    }, 200)
 }
 
 function levelUp(){
@@ -57,7 +57,7 @@ function checkAns(idx) {
             setTimeout(levelUp, 500);
         }
    } else {
-        h2.innerHTML = `Game Over! Your score was <b>${scored}</b> <br> Press any key to start...`;
+        h2.innerHTML = `Game Over! Your score was <b>${scored}</b> <br> Touch anywhere to start the game`;
         document.querySelector("body").style.backgroundColor = "red";
         setTimeout( function() {
             document.querySelector("body").style.backgroundColor="black";
