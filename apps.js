@@ -193,3 +193,7 @@ let reset = () => {
     userSeq = [];
     scored = 0;
 };
+<<<<<<< HEAD
+=======
+
+>>>>>>> f55df611de0751dd503070c6370c83aea7f6a5fd

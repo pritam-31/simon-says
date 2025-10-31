@@ -3,15 +3,15 @@
 A fun and interactive *Simon Says* memory game built using HTML, CSS, and JavaScript. Challenge your memory by repeating sequences of colors and sounds!
 
 ## 🚀 Live Demo
-👉 [Play Now](https://your-live-link.com)  
-(Replace with your actual deployed site URL)
+👉 [Play Now](https://pritam-31.github.io/my-1st-Frontend-Project/)  
+
 
 ---
 
 ## 📸 Preview
 
 ![Simon Says Game Screenshot](./screenshot.png)  
-(Add a screenshot image in your repo and link here)
+go to my above link
 
 ---
 
