@@ -1,32 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simon Says Game</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simon Says Game</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-        <h1>Simon Says Game</h1>
-        <h2>Press any key to start the game...</h2>
+  <h1>Simon Says Game</h1>
+  <h2>Touch anywhere to start the game...</h2>
 
-        <div class="btn-container">
-            <div class="line-one">
-                <div class="btn red" type="button" id="red"></div>
-                <div class="btn yellow" type="button" id="yellow"></div>
-            </div>
-            <div class="line-two">
-                <div class="btn green" type="button" id="green"></div>
-                <div class="btn purple" type="button" id="purple"></div>  
-            </div>
-        </div>
+  <div class="btn-container">
+    <div class="btn red" id="red"></div>
+    <div class="btn yellow" id="yellow"></div>
+    <div class="btn green" id="green"></div>
+    <div class="btn purple" id="purple"></div>
+  </div>
 
-        <!-- Add this somewhere in your game HTML -->
-<div id="scoreBoard">
+  <div id="scoreBoard">
     <h3>High Score: <span id="highScore">0</span></h3>
-</div>
+  </div>
 
-<script src="apps.js"></script>
+  <script src="app.js"></script>
 </body>
-
 </html>
