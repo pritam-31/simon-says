@@ -3,7 +3,7 @@
 A fun and interactive *Simon Says* memory game built using HTML, CSS, and JavaScript. Challenge your memory by repeating sequences of colors and sounds!
 
 ## 🚀 Live Demo
-👉 [Play Now](https://pritam-31.github.io/my-1st-Frontend-Project/)  
+👉 [Play Now]https://pritam-31.github.io/simon-says/ 
 
 
 ---
